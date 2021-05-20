@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: seleniumbddcucumbermaven.seleniumbddcucumbermaven.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.283 sec <<< FAILURE!
+Login with valid credentials and create new Analysis(As a user I can create Account and verify Account details)  Time elapsed: 24.965 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<US[1]> but was:<US[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepdefinition.HomePageStepDefinition.iVerifyAccountNameAndCountryNameAs(HomePageStepDefinition.java:41)
+	at ?.I verify account name "TEST1" and country name as "US"(file:///E:/BddCucumber17052021/seleniumbddcucumbermaven/features/accountcreation.feature:9)
+

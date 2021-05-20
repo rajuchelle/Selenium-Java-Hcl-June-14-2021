@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.979">
+<testcase classname="As a user I can create Account and verify Account details" name="Login with valid credentials and create new Analysis" time="23.718">
+<failure message="expected:&lt;US[1]&gt; but was:&lt;US[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given I am on Login page....................................................passed
+When I enter user name as "5001096" and Passwrd as "5001096"................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+And I enter account name as "Test1" and country as "United States"..........passed
+Then I verify account name "TEST1" and country name as "US".................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<US[1]> but was:<US[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepdefinition.HomePageStepDefinition.iVerifyAccountNameAndCountryNameAs(HomePageStepDefinition.java:41)
+	at ✽.I verify account name "TEST1" and country name as "US"(file:///E:/BddCucumber17052021/seleniumbddcucumbermaven/features/accountcreation.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
