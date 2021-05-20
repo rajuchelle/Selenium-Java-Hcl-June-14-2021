@@ -1,0 +1,968 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.458Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create Adhoc request",
+        "description": "",
+        "id": "as-a-user-i-can-able-to-create-adhoc-request-and-verifies-adhoc-request;create-adhoc-request",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "adhoc popup shoud be available",
+            "match": {
+              "location": "stepdefinition.StepDefinition2.adhocPopupShoudBeAvailable()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the valid adhoc request data",
+            "match": {
+              "location": "stepdefinition.StepDefinition2.userEntersTheValidAdhocRequestData(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "adhocName",
+                  "segmentName",
+                  "accountNumbers",
+                  "selectdate"
+                ]
+              },
+              {
+                "cells": [
+                  "reques1",
+                  "FXE International",
+                  "123456,345678",
+                  "18052021"
+                ]
+              },
+              {
+                "cells": [
+                  "request2",
+                  "FXE Domestic",
+                  "6482686,8628926",
+                  "17052021"
+                ]
+              },
+              {
+                "cells": [
+                  "request3",
+                  "FXE Ground",
+                  "35835535,57385757",
+                  "16052021"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "adhoc request should be created",
+            "match": {
+              "location": "stepdefinition.StepDefinition2.dhocRequestShouldBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I can able to create adhoc request and verifies adhoc request",
+    "description": "",
+    "id": "as-a-user-i-can-able-to-create-adhoc-request-and-verifies-adhoc-request",
+    "keyword": "Feature",
+    "uri": "file:features/createAdhocRequest.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadDB()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-create-new-analysis;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter user name as 5001096 and Passwrd as 5001096",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5001096",
+                  "offset": 21
+                },
+                {
+                  "val": "5001096",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login should successful",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "set Acount name and selet country",
+            "match": {
+              "location": "stepdefinition.StepDefinition1.set_Acount_name_and_selet_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Create analysis button",
+            "match": {
+              "location": "stepdefinition.StepDefinition1.click_on_Create_analysis_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "analysis shoud be created",
+            "match": {
+              "location": "stepdefinition.StepDefinition1.analysis_shoud_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to create new analysis",
+    "description": "",
+    "id": "as-a-user-i-want-to-create-new-analysis",
+    "keyword": "Feature",
+    "uri": "file:features/createAnalysis.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.558Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Accessing the data from Datatable",
+        "description": "",
+        "id": "handle-the-datatable-with-datatable-annotation;accessing-the-data-from-datatable",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the data table data",
+            "match": {
+              "location": "stepdefinition.StepDefinition3.theDataTableData(java.util.List\u003cstepdefinition.StepDefinition3$AcountInfo\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "AccountName",
+                  "AccountType"
+                ]
+              },
+              {
+                "cells": [
+                  "TEST1",
+                  "Account1"
+                ]
+              },
+              {
+                "cells": [
+                  "TEST2",
+                  "Account2"
+                ]
+              },
+              {
+                "cells": [
+                  "TEST3",
+                  "Account3"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Handle the datatable with DataTable annotation",
+    "description": "",
+    "id": "handle-the-datatable-with-datatable-annotation",
+    "keyword": "Feature",
+    "uri": "file:features/datatable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.572Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-login-funtionality;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter user name as 5001096 and Passwrd as 5001096",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5001096",
+                  "offset": 21
+                },
+                {
+                  "val": "5001096",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login should successful",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T06:55:13.608Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadDB()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-login-funtionality;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter user name as 1234567 and Passwrd as 1234567",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 21
+                },
+                {
+                  "val": "1234567",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "login should fail",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldFail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify the login funtionality",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-the-login-funtionality",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.632Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Parameter type example",
+        "description": "",
+        "id": "parameter-type-data;parameter-type-example",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verfiy adhoc data \"reques1\",\"FXE International\",123456,345678,18052021,82638538,\"Request Submted\",\"status success\",\"Update\", \"Close\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"reques1\",\"FXE International\",123456,345678,18052021,82638538,\"Request Submted\",\"status success\",\"Update\", \"Close\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinition.StepDefinition4.verfiyAdhocData(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Parameter type data",
+    "description": "",
+    "id": "parameter-type-data",
+    "keyword": "Feature",
+    "uri": "file:features/parametertype.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T06:55:13.646Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with dufferent user credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-user-credentials;login-with-dufferent-user-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name as 5001096 and Passwrd as 5001096",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5001096",
+                  "offset": 21
+                },
+                {
+                  "val": "5001096",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should successful",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T06:55:13.673Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with dufferent user credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-user-credentials;login-with-dufferent-user-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name as 632872 and Passwrd as 632872",
+            "match": {
+              "arguments": [
+                {
+                  "val": "632872",
+                  "offset": 21
+                },
+                {
+                  "val": "632872",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should successful",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T06:55:13.684Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with dufferent user credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-user-credentials;login-with-dufferent-user-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name as 540449 and Passwrd as 540449",
+            "match": {
+              "arguments": [
+                {
+                  "val": "540449",
+                  "offset": 21
+                },
+                {
+                  "val": "540449",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iEnterUserNameAsAndPasswrdAs(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should successful",
+            "match": {
+              "location": "stepdefinition.StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify the user credentials",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-the-user-credentials",
+    "keyword": "Feature",
+    "uri": "file:features/verifyLoginCredentials.feature",
+    "tags": []
+  }
+]

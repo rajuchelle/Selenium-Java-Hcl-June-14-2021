@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.269">
+<testcase classname="As a user I can able to create adhoc request and verifies adhoc request" name="Create Adhoc request" time="0.035">
+<system-out><![CDATA[Given adhoc popup shoud be available........................................passed
+When user enters the valid adhoc request data...............................passed
+Then adhoc request should be created........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to create new analysis" name="Login with valid credentials" time="0.024">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 5001096 and Passwrd as 5001096....................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+And set Acount name and selet country.......................................passed
+And click on Create analysis button.........................................passed
+Then analysis shoud be created..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Handle the datatable with DataTable annotation" name="Accessing the data from Datatable" time="0.01">
+<system-out><![CDATA[Given the data table data...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to verify the login funtionality" name="Login with valid credentials" time="0.028">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 5001096 and Passwrd as 5001096....................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to verify the login funtionality" name="Login with valid credentials 2" time="0.02">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 1234567 and Passwrd as 1234567....................passed
+And I click on Login button.................................................passed
+Then login should fail......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parameter type data" name="Parameter type example" time="0.009">
+<system-out><![CDATA[Given verfiy adhoc data "reques1","FXE International",123456,345678,18052021,82638538,"Request Submted","status success","Update", "Close".passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to verify the user credentials" name="Login with dufferent user credentials" time="0.024">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 5001096 and Passwrd as 5001096....................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to verify the user credentials" name="Login with dufferent user credentials 2" time="0.009">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 632872 and Passwrd as 632872......................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to verify the user credentials" name="Login with dufferent user credentials 3" time="0.009">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I enter user name as 540449 and Passwrd as 540449......................passed
+And I click on Login button.................................................passed
+Then login should successful................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
