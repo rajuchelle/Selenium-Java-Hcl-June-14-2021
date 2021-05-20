@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-the-login-funtionality;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 291812400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "StepDefinition.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7090700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name as \"5001096\" and Passwrd as \"5001096\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5001096",
+                  "offset": 22
+                },
+                {
+                  "val": "5001096",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.iEnterUserNameAsAndPasswrdAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "StepDefinition.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should successful",
+            "match": {
+              "location": "StepDefinition.loginShouldSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify the login funtionality",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-the-login-funtionality",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

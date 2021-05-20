@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.346531">
+<testcase classname="As a user I can able to create adhoc request and verifies adhoc request" name="Create Adhoc request" time="0.346531">
+<system-out><![CDATA[Given adhoc popup shoud be available........................................passed
+When user enters the valid adhoc request data...............................passed
+Then adhoc request should be created........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

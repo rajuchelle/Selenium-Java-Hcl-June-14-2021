@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 475000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.loadClasses1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1654300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.loadClasses()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create Adhoc request",
+        "description": "",
+        "id": "as-a-user-i-can-able-to-create-adhoc-request-and-verifies-adhoc-request;create-adhoc-request",
+        "after": [
+          {
+            "result": {
+              "duration": 125700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.restoyObject()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 337714500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "adhoc popup shoud be available",
+            "match": {
+              "location": "StepDefinition2.adhocPopupShoudBeAvailable()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6243000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the valid adhoc request data",
+            "match": {
+              "location": "StepDefinition2.userEntersTheValidAdhocRequestData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "adhocName",
+                  "segmentName",
+                  "accountNumbers",
+                  "selectdate"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "reques1",
+                  "FXE International",
+                  "123456,345678",
+                  "18052021"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "request2",
+                  "FXE Domestic",
+                  "6482686,8628926",
+                  "17052021"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "request3",
+                  "FXE Ground",
+                  "35835535,57385757",
+                  "16052021"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "adhoc request should be created",
+            "match": {
+              "location": "StepDefinition2.dhocRequestShouldBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I can able to create adhoc request and verifies adhoc request",
+    "description": "",
+    "id": "as-a-user-i-can-able-to-create-adhoc-request-and-verifies-adhoc-request",
+    "keyword": "Feature",
+    "uri": "features/createAdhocRequest.feature"
+  }
+]
