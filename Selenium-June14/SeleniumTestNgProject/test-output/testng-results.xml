@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src="E:/Selenium-June14/SeleniumTestNgProject/Screenshots/2021_46_18_124623.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="E:/Selenium-June14/SeleniumTestNgProject/Screenshots/2021_46_18_124630.jpg"/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47558" started-at="2021-06-18T07:15:45Z" finished-at="2021-06-18T07:16:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47558" started-at="2021-06-18T07:15:45Z" finished-at="2021-06-18T07:16:32Z">
+      <class name="demo.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:demo.NewTest@35851384]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2021-06-18T12:45:45Z" finished-at="2021-06-18T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.NewTest@35851384]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-06-18T12:45:45Z" finished-at="2021-06-18T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:demo.NewTest@35851384]" name="beforeClass" is-config="true" duration-ms="5398" started-at="2021-06-18T12:45:45Z" finished-at="2021-06-18T12:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.NewTest@35851384]" name="beforeMethod" is-config="true" duration-ms="32613" started-at="2021-06-18T12:45:50Z" finished-at="2021-06-18T12:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:demo.NewTest@35851384]" name="seleniumTest" duration-ms="327" started-at="2021-06-18T12:46:23Z" finished-at="2021-06-18T12:46:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:/Selenium-June14/SeleniumTestNgProject/Screenshots/2021_46_18_124623.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- seleniumTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.NewTest@35851384]" name="afterMethod" is-config="true" duration-ms="2603" started-at="2021-06-18T12:46:23Z" finished-at="2021-06-18T12:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.NewTest@35851384]" name="beforeMethod" is-config="true" duration-ms="4118" started-at="2021-06-18T12:46:26Z" finished-at="2021-06-18T12:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="javaTest()[pri:0, instance:demo.NewTest@35851384]" name="javaTest" duration-ms="339" started-at="2021-06-18T12:46:30Z" finished-at="2021-06-18T12:46:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:/Selenium-June14/SeleniumTestNgProject/Screenshots/2021_46_18_124630.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- javaTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.NewTest@35851384]" name="afterMethod" is-config="true" duration-ms="2128" started-at="2021-06-18T12:46:30Z" finished-at="2021-06-18T12:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:demo.NewTest@35851384]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-06-18T12:46:32Z" finished-at="2021-06-18T12:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.NewTest@35851384]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-18T12:46:32Z" finished-at="2021-06-18T12:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:demo.NewTest@35851384]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-06-18T12:46:32Z" finished-at="2021-06-18T12:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- demo.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

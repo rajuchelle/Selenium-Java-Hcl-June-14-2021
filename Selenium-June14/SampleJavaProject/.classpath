@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/bundle-jars.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/mysql-connector-java-5.1.44.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/poi-ooxml-schemas-3.9 (1).jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/snakeyaml-1.19.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium Hcl/Day1/Selenium_Sunil/Selenium_Sunil/Selenium Jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJU CHELLE/Desktop/SampleJar1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
