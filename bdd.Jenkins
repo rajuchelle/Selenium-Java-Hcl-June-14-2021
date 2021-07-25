@@ -1,1 +1,2 @@
 echo 'THis is Jenins file'
+checkout([$class: 'GitSCM', branches: [[name: '*/development']], extensions: [], userRemoteConfigs: [[credentialsId: 'BDDProj', url: 'https://github.com/rajuchelle/Selenium-Java-Hcl-June-14-2021.git']]])
